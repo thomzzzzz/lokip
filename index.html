@@ -14,7 +14,7 @@
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            font-family: 'Outfit', sans-serif;
+            font-family: 'Calibri', sans-serif;
         }
 
         body {
@@ -502,31 +502,31 @@
     </div>
 
     <div class="page" id="about">
-        <h1>HEY BOY</h1>
-        <div class="typing-animation">      This is payment thomz |</div>
-        <p class="subtitle">ya kali salah tf jing ^-^</p>
+        <h1>Payment By Thomz</h1>
+        <div class="typing-animation"> ------------------</div>
+        <p class="subtitle">Jangan lupa sertakan bukti tf</p>
         <a href="#" class="btn" onclick="showPayment()">Cek payment</a>
     </div>
 
     <div class="page hidden" id="payment">
-        <h1>Payment Methods</h1>
-        <p class="subtitle">Silahkan pilih salah satu metode pembayaran di bawah ini</p>
+        <h1>Payment yang tersedia</h1>
+        <p class="subtitle">Transfer sesuai nominal dan kirim bukti tf langsung ke whatsapp</p>
 
         <div class="qr-frame" onclick="zoomQR()">
             <img id="qrisImage" src="https://telegra.ph/file/5418e8dfe89ded1d7953d.jpg" alt="QR Code for Payment">
         </div>
 
-        <p class="subtitle">Scan tod</p>
+        <p class="subtitle">SCAN QRIS DI ATAS JIKA INGIN MENGGUNAKAN ALL PAY</p>
 
         <div class="payment-info">
             <details>
                 <summary>DANA</summary>
                 <p><strong>083834510927</strong></p>
             </details>
+                            <button class="copy-button" onclick="copyText('081997715124', this)">copy</button>
             <details>
                 <summary>GOPAY</summary> 
                 <p><strong>083169231840</strong></p>
-                <button class="copy-button" onclick="copyText('081997715124', this)">copy</button>
             </details>
             <details>
                 <summary>OVO</summary>
@@ -535,15 +535,14 @@
         </div>
 
         <div class="social">
-            <a href="https://wa.me/083834510927" target="_blank" class="btn">WhatsApp</a>
-            <a href="https://t.me/kontol" target="_blank" class="btn">Telegram</a>
+            <a href="https://wa.me/6283834510927" target="_blank" class="btn">WhatsApp Thomz</a>
         </div>
 
         <a href="#" class="btn" onclick="showAbout()">Back</a>
     </div>
 
     <div class="overlay" id="qrOverlay" onclick="closeZoom()">
-        <img id="zoomedQR" src="" alt="QR Code for Payment">
+        <img id="zoomedQR" src="" alt="QR ALL PAY THOMZ">
     </div>
 
     <script>
